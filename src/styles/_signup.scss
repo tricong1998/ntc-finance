@@ -1,0 +1,70 @@
+$link_error_button_color: #dc3a61;
+
+.sign-up {
+    label {
+        cursor: pointer;
+    }
+    input[type='checkbox'] {
+        color: $link_error_button_color;
+        background-color: white;
+        display: none;
+    }
+    .submit-button:hover {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(92.34deg, rgb(50, 132, 255) -5.26%, rgb(254, 43, 94) 111.85%);
+    }
+    .custom-checkbox {
+        .checkbox {
+            display: inline-block; // set to `inline-block` as `inline elements ignore `height` and `width`
+            height: 20px;
+            width: 20px;
+            background: #fff;
+            border: 1px solid silver;
+            margin-right: 4px;
+            padding-top: 0.1123rem;
+            border-radius: 0.3125rem;            
+        }
+
+        .checkbox--active {
+            color: $link_error_button_color;            
+            background: white;
+            transition: all .3s;  
+        }
+    }
+    .link_error_button_color {
+        color: $link_error_button_color;
+    }
+    .bg-button {
+        background-color: $link_error_button_color;
+    }
+    background: radial-gradient(
+        100% 137.95% at -102.47% -39.75%,
+        #749091 0,
+        #a6c2c1 100%
+    );
+    font-family: EuclidCircularA-Regular;
+    .desc {
+        font: 600 2rem EuclidCircularA-Regular;
+        color: #688786;
+    }
+
+    .left {
+        width: 28.75rem;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    a {
+        color: $link_error_button_color;
+        cursor: pointer;
+    }
+
+    .right {
+        background-color: white;
+        .form-connection-header {
+            font: 600 2rem EuclidCircularA-Regular;
+        }
+    }
+}
